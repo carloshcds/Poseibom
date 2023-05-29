@@ -79,7 +79,7 @@ export const QrCode = () => {
 
 const styles = StyleSheet.create({
   image30Position: {
-    left: 66,
+    left: 90,
     position: "absolute",
   },
   compraFlexBox: {
@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   x1Typo: {
-    top: 299,
+    top: 330,
     textAlign: "left",
     letterSpacing: -1.5,
     fontSize: FontSize.size_3xl,
@@ -123,13 +123,13 @@ const styles = StyleSheet.create({
     width: "100%",
   },
   image30: {
-    top: 473,
+    top: 580,
     width: 228,
     height: 228,
   },
   qrCode: {
-    top: 374,
-    left: 101,
+    top: 450,
+    left: 120,
     textAlign: "center",
     color: Color.black,
     fontFamily: FontFamily.redHatDisplayRegular,
@@ -141,7 +141,7 @@ const styles = StyleSheet.create({
     left: 193,
     letterSpacing: -1.5,
     fontSize: FontSize.size_3xl,
-    top: 328,
+    top: 380,
     textAlign: "left",
     fontFamily: FontFamily.redHatDisplayRegular,
   },
@@ -149,7 +149,7 @@ const styles = StyleSheet.create({
     left: 10,
     letterSpacing: -1.5,
     fontSize: FontSize.size_3xl,
-    top: 328,
+    top: 380,
     textAlign: "left",
     fontFamily: FontFamily.redHatDisplayRegular,
   },
@@ -160,7 +160,7 @@ const styles = StyleSheet.create({
     left: 10,
   },
   image5Icon: {
-    top: 124,
+    top: 150,
     borderRadius: Border.br_mid,
     width: 177,
     height: 160,

@@ -70,7 +70,7 @@ export const Produto = () => {
                 <Text style={[styles.filDeTilpia, styles.text1Typo]}>
                     {product?.name}
                 </Text>
-                <Text style={[styles.filDeTilpia, styles.text1Typo, {top: 32, letterSpacing: 0}]}>
+                <Text style={[styles.filDeTilpia, styles.text1Typo, {top: 100, letterSpacing: -1.3}]}>
                     R$ {product?.price}
                 </Text>
                 <Text
@@ -201,10 +201,10 @@ const styles = StyleSheet.create({
         letterSpacing: -2.3,
         fontSize: 28,
         left: 0,
-        top: 0,
+        top: 10,
     },
     especificaesDoPeixe: {
-        top: 84,
+        top: 180,
         fontSize: FontSize.size_xl,
         letterSpacing: -1.4,
         left: 0,
@@ -215,7 +215,7 @@ const styles = StyleSheet.create({
         height: 142,
     },
     image5Icon: {
-        top: 36,
+        top: 30,
         width: 420,
         height: 250,
         left: 0,
